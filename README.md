@@ -98,10 +98,20 @@ It should say something like `/Users/you-user-name/Win10`. This is your `wine`-p
 
 
 
-## Part about `winetricks` and .NET 4.0, .NET 4.5.2 and vcrun2010
--
--
--
+## Part about `winetricks`
+
+Let's install [`winetricks`](https://formulae.brew.sh/formula/winetricks) to configure the necessary libraries for Assetto Corsa.
+
+```bash
+brew install winetricks
+```
+
+After installation we should run `winetricks` with:
+
+```bash
+MTL_HUD_ENABLED=0 WINEESYNC=1 WINEPREFIX=/Users/etraytyak/Win10 WINE=/usr/local/opt/game-porting-toolkit/bin/wine64 DISPLAY=foobar winetricks --gui=zenity
+```
+
 
 
 Apple provides a few scripts to start games, which we will not use: `gameportingtoolkit`, `gameportingtoolkit-no-esync`, and `gameportingtoolkit-no-hud`. Open those script with your favorite editor to learn how to configure `wine`. The `Readme.rtf` or the Game Porting Toolkit explains the differences.
