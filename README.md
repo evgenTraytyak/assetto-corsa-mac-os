@@ -13,7 +13,7 @@ We will make sure that our existing environment (and the Apple silicon version o
 - Open a terminal (or iTerm2)
 - Make sure that rosetta is installed by entering:
 ```
-softwareupdate --install-rosetta
+softwareupdate --install-rosetta --agree-to-license
 ```
 Now your Mac is able to execute `x86_64` code. This is the basis for all the following installations.
 
