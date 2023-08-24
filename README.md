@@ -113,6 +113,8 @@ MTL_HUD_ENABLED=0 WINEESYNC=1 WINEPREFIX=/Users/etraytyak/Win10 WINE=/usr/local/
 ```
 
 
+Check that wine switched back to Windows 10 from Windows2003 after installation...
+
 
 Apple provides a few scripts to start games, which we will not use: `gameportingtoolkit`, `gameportingtoolkit-no-esync`, and `gameportingtoolkit-no-hud`. Open those script with your favorite editor to learn how to configure `wine`. The `Readme.rtf` or the Game Porting Toolkit explains the differences.
 
